@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# Data_Analyst_Challeng1
-Challenge Nº 1 del Curso de Análisis de Datos Alura
-=======
-# Challenge Nº 1 del Curso de Análisis de Datos Allura
+
+# Challenge Nº 1 del Curso de Análisis de Datos Alura
 
 Durante este desafío, ayudamos al Sr. Juan a decidir qué tienda de su cadena Alura Store debe vender para iniciar un nuevo emprendimiento. Para ello, analizamos datos de ventas, rendimiento y reseñas de las 4 tiendas de Alura Store. El objetivo fué identificar la tienda menos eficiente y presentar una recomendación final basada en los datos. 
 ## La estructura del proyecto y organización de los archivos.
@@ -18,4 +15,4 @@ Primeramente importamos los datasets correspondientes a cada tienda Allura Store
 
 ## Instrucciones para ejecutar el notebook.
 Podemos descargar el notebook y luego abrirlo con VSCode e ir ejecutando cada porción de código proporcionado.
->>>>>>> f9d719385dcb307fdab06db9419ca481d2ef74d1
+
