@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f41a44b0ede251848726386601a8591 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9f41a44b0ede251848726386601a8591" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9f41a44b0ede251848726386601a8591 = L.map(
+                "map_9f41a44b0ede251848726386601a8591",
+                {
+                    center: [6.6810125, -74.4815325],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_54385f23793c6e160ae69615ad51b33e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_54385f23793c6e160ae69615ad51b33e.addTo(map_9f41a44b0ede251848726386601a8591);
+        
+    
+            var marker_cluster_618a7d35aad440fce35e2bd108c57e7d = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_d099d8a76ba89abe7169ab0d2e8c5941 = L.marker(
+                [4.60971, -74.08175],
+                {
+}
+            ).addTo(marker_cluster_618a7d35aad440fce35e2bd108c57e7d);
+        
+    
+            var icon_4551404c47c0f21d5d53f9052af70c0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65fc43e8676d6a0f1693af4a2c8a0fe7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaf4376c427f25070e61fcb3736b7aa0 = $(`<div id="html_aaf4376c427f25070e61fcb3736b7aa0" style="width: 100.0%; height: 100.0%;">Tienda: Tienda 1<br>Ventas: $1,150,880,400.00<br>Diferencia vs Promedio: $56,252,350.00</div>`)[0];
+                popup_65fc43e8676d6a0f1693af4a2c8a0fe7.setContent(html_aaf4376c427f25070e61fcb3736b7aa0);
+            
+        
+
+        marker_d099d8a76ba89abe7169ab0d2e8c5941.bindPopup(popup_65fc43e8676d6a0f1693af4a2c8a0fe7)
+        ;
+
+        
+    
+    
+                marker_d099d8a76ba89abe7169ab0d2e8c5941.setIcon(icon_4551404c47c0f21d5d53f9052af70c0d);
+            
+    
+            var marker_1a20e775d372579c8857e104a69832f9 = L.marker(
+                [6.25184, -75.56359],
+                {
+}
+            ).addTo(marker_cluster_618a7d35aad440fce35e2bd108c57e7d);
+        
+    
+            var icon_692bc2281e8f93bb82f0aab2887b4ab7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_535fb2e8b131576d75c9690f5906205c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f5e93166bf598e85b15ba57b40e9e31 = $(`<div id="html_7f5e93166bf598e85b15ba57b40e9e31" style="width: 100.0%; height: 100.0%;">Tienda: Tienda 2<br>Ventas: $1,116,343,500.00<br>Diferencia vs Promedio: $0.00</div>`)[0];
+                popup_535fb2e8b131576d75c9690f5906205c.setContent(html_7f5e93166bf598e85b15ba57b40e9e31);
+            
+        
+
+        marker_1a20e775d372579c8857e104a69832f9.bindPopup(popup_535fb2e8b131576d75c9690f5906205c)
+        ;
+
+        
+    
+    
+                marker_1a20e775d372579c8857e104a69832f9.setIcon(icon_692bc2281e8f93bb82f0aab2887b4ab7);
+            
+    
+            var marker_6862e412bf23e45a0a26640e53eee1bf = L.marker(
+                [11.24079, -74.19904],
+                {
+}
+            ).addTo(marker_cluster_618a7d35aad440fce35e2bd108c57e7d);
+        
+    
+            var icon_b41c7153493889cfe6e51d45839593bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27d74997823734f7481d408f7be751e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb1ee593426c50d704966531cfb79f15 = $(`<div id="html_eb1ee593426c50d704966531cfb79f15" style="width: 100.0%; height: 100.0%;">Tienda: Tienda 3<br>Ventas: $1,098,019,600.00<br>Diferencia vs Promedio: $0.00</div>`)[0];
+                popup_27d74997823734f7481d408f7be751e6.setContent(html_eb1ee593426c50d704966531cfb79f15);
+            
+        
+
+        marker_6862e412bf23e45a0a26640e53eee1bf.bindPopup(popup_27d74997823734f7481d408f7be751e6)
+        ;
+
+        
+    
+    
+                marker_6862e412bf23e45a0a26640e53eee1bf.setIcon(icon_b41c7153493889cfe6e51d45839593bc);
+            
+    
+            var marker_a910ab003f0b2372d9702dd802c2e0c4 = L.marker(
+                [4.62171, -74.08175],
+                {
+}
+            ).addTo(marker_cluster_618a7d35aad440fce35e2bd108c57e7d);
+        
+    
+            var icon_6479bc8a83ab4e550f829d1a054da8f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4196d0e44c74b5c0bed3cc1ea34143ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3afc6c3860e15b2f195fdb1f1feb754 = $(`<div id="html_f3afc6c3860e15b2f195fdb1f1feb754" style="width: 100.0%; height: 100.0%;">Tienda: Tienda 4<br>Ventas: $1,038,375,700.00<br>Diferencia vs Promedio: $-56,252,350.00</div>`)[0];
+                popup_4196d0e44c74b5c0bed3cc1ea34143ce.setContent(html_f3afc6c3860e15b2f195fdb1f1feb754);
+            
+        
+
+        marker_a910ab003f0b2372d9702dd802c2e0c4.bindPopup(popup_4196d0e44c74b5c0bed3cc1ea34143ce)
+        ;
+
+        
+    
+    
+                marker_a910ab003f0b2372d9702dd802c2e0c4.setIcon(icon_6479bc8a83ab4e550f829d1a054da8f7);
+            
+    
+            marker_cluster_618a7d35aad440fce35e2bd108c57e7d.addTo(map_9f41a44b0ede251848726386601a8591);
+        
+</script>
+</html>
